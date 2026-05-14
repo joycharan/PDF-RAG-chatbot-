@@ -1,0 +1,10 @@
+modelEmbeddings: "sentence-transformers/all-MiniLM-L6-v2"
+# API configuration
+GOOGLE_API_KEY: "your-gemini-api-key-here"
+# Project details (optional)
+GOOGLE_PROJECT_NAME: "your-project-name"
+GOOGLE_PROJECT_NUMBER: "your-project-number"
+# Set which API to use: "openai" or "google"
+LLM_API_TYPE: "google"
+# Specify which Google model to use (one that works with your quota)
+GOOGLE_MODEL_NAME: "gemini-2.5-flash-lite"
